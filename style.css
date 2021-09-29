@@ -1,0 +1,141 @@
+* {
+   font-family: Helvetica, sans-serif; 
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
+   
+}
+
+h5 {
+    font-size: medium;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    display:inline;
+    text-decoration: underline;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 10px;
+
+}
+
+/* Main */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Mission*/
+.mission {
+    height: 700px;   
+    max-width: 1200px;
+    
+    background-image: url(img/img-mission-background.jpg);
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;  
+    justify-content: center;
+
+} 
+
+
+/* Featured Tea */
+ .featured-tea {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.featured-tea .box-container {
+    display: inline-flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between; 
+    
+} 
+
+.featured-tea .box {
+    margin: auto 15px;
+}
+
+.featured-tea .box img {
+     max-height: 200px; 
+     max-width: 300px;
+     overflow: hidden;
+} 
+
+/*Locations*/
+
+.locations {
+    max-width: 1200px;
+    max-height: 500px;
+    margin: auto;
+
+    background-image: url(img/img-locations-background.jpg);
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.locations h3 {
+    background-color: transparent;
+}
+
+.locations .box-container {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+.locations .box-container .box{
+    width: 300px;
+    margin: 20px;
+    background-color: black;
+    opacity: 1;
+}
+
+/* footer */
+footer {
+    max-height: 200px;
+    display: flex;
+    
+}
+
+.copyright {
+    padding-left: 20px;
+    justify-content: left;
+}
